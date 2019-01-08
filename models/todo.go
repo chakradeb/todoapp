@@ -1,9 +1,9 @@
 package models
 
 type Todo struct {
-	name string
+	name        string
 	description string
-	items []*TodoItem
+	items       []*TodoItem
 }
 
 func NewTodo(name string, desc string) *Todo {

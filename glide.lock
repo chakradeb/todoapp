@@ -1,6 +1,18 @@
-hash: 98411d5c4fd13df78e3502e83082ae0401c2b43fe1c234fe75350a0720f0f7f1
-updated: 2019-01-08T10:44:35.329005+05:30
+hash: 500048759dfd205e6dcb6062ac82238887459b97bcdda4b48e80e00112780baf
+updated: 2019-01-08T15:09:04.723574+05:30
 imports:
+- name: github.com/labstack/echo
+  version: 4256489c0e1ff50bdb71aedd1a21483fe2d67607
 - name: github.com/stretchr/testify
   version: ffdc059bfe9ce6a4e144ba849dbedead332c6053
-testImports: []
+  subpackages:
+  - assert
+testImports:
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+  subpackages:
+  - difflib

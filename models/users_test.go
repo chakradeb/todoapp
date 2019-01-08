@@ -2,7 +2,7 @@ package models
 
 import (
 	"testing"
-	
+
 	"github.com/stretchr/testify/assert"
 )
 
@@ -11,11 +11,11 @@ func TestUserManagement_AddUser(t *testing.T) {
 	users.addUser("Happy User")
 
 	user := &User{
-		name:"Happy User",
+		name: "Happy User",
 	}
 
 	expectedUsers := &UserManagement{
-		users:[]*User{user},
+		users: []*User{user},
 	}
 
 	assert.Equal(t, expectedUsers, users, "Invalid users")

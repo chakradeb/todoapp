@@ -21,7 +21,7 @@ func TestTodoItem_ChangeDescription(t *testing.T) {
 
 	expectedItem := &TodoItem{
 		objective: "Job has been changed",
-		isDone: false,
+		isDone:    false,
 	}
 	assert.Equal(t, expectedItem, item, "Invalid todo description")
 }
@@ -32,7 +32,7 @@ func TestTodoItem_ChangeStatus(t *testing.T) {
 
 	expectedItem := &TodoItem{
 		objective: "This is my job",
-		isDone: true,
+		isDone:    true,
 	}
 	assert.Equal(t, expectedItem, item, "Invalid todo status")
 }

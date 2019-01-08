@@ -2,7 +2,7 @@ package models
 
 type TodoItem struct {
 	objective string
-	isDone bool
+	isDone    bool
 }
 
 func NewTodoItem(obj string) *TodoItem {
